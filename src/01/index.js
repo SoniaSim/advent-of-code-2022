@@ -1,4 +1,4 @@
-import { replace, split, sumBy, sum } from 'lodash';
+import { replace, split, sumBy, sum, max } from 'lodash';
 
 export const parseInput = input => {
   return input;
@@ -13,9 +13,7 @@ export const partOne = input => {
     return sumBy(elf, value => Number(value));
   });
 
-  const sortTotatCalories = elvesTotalCalories.sort((a, b) => b - a);
-
-  return sortTotatCalories[0];
+  return max(elvesTotalCalories);
 };
 
 export const partTwo = input => {
@@ -28,7 +26,6 @@ export const partTwo = input => {
   });
 
   const sortTotatCalories = elvesTotalCalories.sort((a, b) => b - a);
-  const topThreeElvesCalories = sum(sortTotatCalories.slice(0, 3));
 
-  return topThreeElvesCalories;
+  return sum(sortTotatCalories.slice(0, 3));
 };
