@@ -11,28 +11,28 @@ export const partOne = input => {
     .replace(/[CZ]/g, 3)
     .split('\n')
     .map(value => {
-      return split(value, ' ');
+      return split(value, ' ').map(Number);
     });
 
   let score = 0;
 
   const checkTheWin = (PlayerTwo, playerOne) => {
     if (
-      (Number(PlayerTwo) === 1 && Number(playerOne) === 3) ||
-      (Number(PlayerTwo) === 3 && Number(playerOne) === 2) ||
-      (Number(PlayerTwo) === 2 && Number(playerOne) === 1)
+      (PlayerTwo === 1 && playerOne === 3) ||
+      (PlayerTwo === 3 && playerOne === 2) ||
+      (PlayerTwo === 2 && playerOne === 1)
     ) {
       return true;
     }
   };
 
   for (let game = 0; game < data?.length - 1; game++) {
-    if (Number(data[game][1]) === Number(data[game][0])) {
-      score = score + 3 + Number(data[game][1]);
+    if (data[game][1] === data[game][0]) {
+      score = score + 3 + data[game][1];
     } else if (checkTheWin(data[game][1], data[game][0])) {
-      score = score + 6 + Number(data[game][1]);
+      score = score + 6 + data[game][1];
     } else {
-      score = score + Number(data[game][1]);
+      score = score + data[game][1];
     }
   }
 

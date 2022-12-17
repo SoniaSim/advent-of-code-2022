@@ -6,7 +6,7 @@ export const parseInput = input => {
     .filter(Boolean)
     .map(value => {
       return split(value, ',').map(section => {
-        return split(section, '-');
+        return split(section, '-').map(Number);
       });
     });
 };
@@ -20,17 +20,13 @@ export const partOne = input => {
     const sectionOne = data[pair][0];
     const sectionTow = data[pair][1];
     if (
-      (Number(sectionOne[0]) <= Number(sectionTow[0]) &&
-        Number(sectionOne[1]) >= Number(sectionTow[1])) ||
-      (Number(sectionOne[0]) === Number(sectionTow[0]) &&
-        Number(sectionOne[1]) === Number(sectionTow[0])) ||
-      (Number(sectionOne[0]) === Number(sectionTow[1]) &&
-        Number(sectionOne[1]) === Number(sectionTow[1])) ||
-      (Number(sectionOne[0]) === Number(sectionOne[1]) &&
-        Number(sectionOne[0]) > Number(sectionTow[0]) &&
-        Number(sectionOne[0]) < Number(sectionTow[1])) ||
-      (Number(sectionOne[0]) >= Number(sectionTow[0]) &&
-        Number(sectionOne[1]) <= Number(sectionTow[1]))
+      (sectionOne[0] <= sectionTow[0] && sectionOne[1] >= sectionTow[1]) ||
+      (sectionOne[0] === sectionTow[0] && sectionOne[1] === sectionTow[0]) ||
+      (sectionOne[0] === sectionTow[1] && sectionOne[1] === sectionTow[1]) ||
+      (sectionOne[0] === sectionOne[1] &&
+        sectionOne[0] > sectionTow[0] &&
+        sectionOne[0] < sectionTow[1]) ||
+      (sectionOne[0] >= sectionTow[0] && sectionOne[1] <= sectionTow[1])
     ) {
       totalOverlap = totalOverlap + 1;
     }
@@ -48,10 +44,8 @@ export const partTwo = input => {
     const sectionOne = data[pair][0];
     const sectionTow = data[pair][1];
     if (
-      (Number(sectionOne[0]) < Number(sectionTow[0]) &&
-        Number(sectionOne[1]) < Number(sectionTow[0])) ||
-      (Number(sectionOne[0]) > Number(sectionTow[0]) &&
-        Number(sectionOne[0]) > Number(sectionTow[1]))
+      (sectionOne[0] < sectionTow[0] && sectionOne[1] < sectionTow[0]) ||
+      (sectionOne[0] > sectionTow[0] && sectionOne[0] > sectionTow[1])
     ) {
       totalNotOverlap = totalNotOverlap + 1;
     }
