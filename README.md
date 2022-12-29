@@ -17,15 +17,15 @@ Fork it/clone it, and get started!
     <tr>
       <td>Day 01</td>
       <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/01">
+        <a href="https://github.com/SoniaSim/advent-of-code-2022/tree/main/src/01">
           <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
         </a>
       </td>
     </tr>
     <tr>
-      <td>Day 01</td>
+      <td>Day 02</td>
       <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/01">
+        <a href="https://github.com/SoniaSim/advent-of-code-2022/tree/main/src/02">
           <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
         </a>
       </td>
@@ -33,7 +33,7 @@ Fork it/clone it, and get started!
     <tr>
       <td>Day 03</td>
       <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/03">
+        <a href="https://github.com/SoniaSim/advent-of-code-2022/tree/main/src/03">
           <img src="https://badgen.net/badge/03/%E2%98%85%E2%98%85/green" alt="" />
         </a>
       </td>
@@ -41,7 +41,7 @@ Fork it/clone it, and get started!
     <tr>
       <td>Day 04</td>
       <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/04">
+        <a href="https://github.com/SoniaSim/advent-of-code-2022/tree/main/src/04">
           <img src="https://badgen.net/badge/04/%E2%98%85%E2%98%85/green" alt="" />
         </a>
       </td>
@@ -49,7 +49,7 @@ Fork it/clone it, and get started!
     <tr>
       <td>Day 05</td>
       <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/05">
+        <a href="https://github.com/SoniaSim/advent-of-code-2022/tree/main/src/05">
           <img src="https://badgen.net/badge/05/%E2%98%85%E2%98%85/green" alt="" />
         </a>
       </td>
@@ -57,7 +57,7 @@ Fork it/clone it, and get started!
     <tr>
       <td>Day 06</td>
       <td>
-        <a href="https://github.com/pathto/repo/tree/main/src/06">
+        <a href="https://github.com/SoniaSim/advent-of-code-2022/tree/main/src/06">
           <img src="https://badgen.net/badge/06/%E2%98%85%E2%98%85/green" alt="" />
         </a>
       </td>
