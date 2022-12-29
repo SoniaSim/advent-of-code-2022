@@ -14,6 +14,54 @@ Fork it/clone it, and get started!
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Day 01</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/01">
+          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Day 01</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/01">
+          <img src="https://badgen.net/badge/01/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Day 03</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/03">
+          <img src="https://badgen.net/badge/03/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Day 04</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/04">
+          <img src="https://badgen.net/badge/04/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Day 05</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/05">
+          <img src="https://badgen.net/badge/05/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Day 06</td>
+      <td>
+        <a href="https://github.com/pathto/repo/tree/main/src/06">
+          <img src="https://badgen.net/badge/06/%E2%98%85%E2%98%85/green" alt="" />
+        </a>
+      </td>
+    </tr>
   </tbody>
 </table>
 <!-- Auto completion:END -->
